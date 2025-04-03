@@ -4,7 +4,7 @@ pipeline{
         SONAR_HOME= tool "Sonar"
     }
     stages{
-        stage("Clone Code from GitHub"){
+        stage("Clone Code from GitHub done"){
             steps{
                 git url: "https://github.com/krishnaacharyaa/wanderlust.git", branch: "devops"
             }
